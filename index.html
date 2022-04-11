@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TCP Evolutivo</title>
+	<meta name="description" content="Trabajo Nro 3 de Laboratorio">
+	<meta name="author" content="AM & CR">
+	<script src="p5.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>TCP</h1>
+	<div>
+		<label for="nro_ciudades">Nro Ciudades:</label>
+		<input type="number" id="nro_ciudades" min="0" max="100" value="20">
+		<button id="calcular" onclick="generarAleatorios()">Generar</button>
+	</div>
+	<div>
+		<label for="ciudad_central">Ciudad Inicial:</label>
+		<input type="number" id="ciudad_central" min="0" max="0" value="0">
+		<button id="calcular" onclick="calcular()">Calcular</button>
+		<button id="siguiente" onclick="sigGeneracion()">Siguiente</button>
+	</div>
+</body>
+</html>
